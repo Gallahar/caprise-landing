@@ -4,16 +4,18 @@ import s from './language-switcher.module.scss'
 import { useRouter } from 'next/navigation'
 import { usePathname } from 'next/navigation'
 import { useCurrentLocale } from 'next-i18n-router/client'
-import { i18nConfig } from '../../../i18nConfig'
+import i18nConfig from '../../i18nConfig'
 import { ChangeEvent } from 'react'
+import { CustomLink } from '@/ui'
+
+const locales = ['en', 'ru']
 
 export default function LanguageSwitcher() {
 	const router = useRouter()
 	const currentPathname = usePathname()
 	const currentLocale = useCurrentLocale(i18nConfig)
 
-	const handleChange = (e: ChangeEvent<HTMLSelectElement>) => {
-		const newLocale = e.target.value
+	const handleChange = (newLocale: string) => {
 		const days = 30
 		const date = new Date()
 		date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000)
@@ -33,9 +35,17 @@ export default function LanguageSwitcher() {
 	}
 
 	return (
-		<select onChange={handleChange} value={currentLocale}>
-			<option value='en'>en</option>
-			<option value='ru'>ru</option>
-		</select>
+		<div className={s.localesWrapper}>
+			{locales.map((locale) => (
+				<button
+					key={locale}
+					onClick={() => handleChange(locale)}
+					className={s.locale}
+					data-active={currentLocale === locale}
+				>
+					{locale}
+				</button>
+			))}
+		</div>
 	)
 }

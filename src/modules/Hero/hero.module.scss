@@ -1,0 +1,36 @@
+.heroWrapper {
+	padding-block: 120px 80px;
+	width: 100%;
+	text-align: center;
+	color: var(--text-secondary);
+	background-image: url('/hero/hero_bg.webp');
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	border-radius: 30px;
+	.heading {
+		font-family: var(--font-desira-demo);
+		font-size: 15.5rem;
+		font-style: normal;
+		line-height: normal;
+	}
+
+	.title {
+		margin-top: 14px;
+		font-size: 3.8rem;
+		font-style: normal;
+		line-height: normal;
+		letter-spacing: 0.76px;
+	}
+
+	.speech {
+		margin-top: 153px;
+		font-size: 3rem;
+		font-style: normal;
+		line-height: normal;
+		letter-spacing: 0.6px;
+	}
+
+	.button {
+		margin-top: 80px;
+	}
+}

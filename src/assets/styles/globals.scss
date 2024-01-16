@@ -1,17 +1,22 @@
 :root {
 	font-size: 62.5%;
 	--bg-primary: #fff9f5;
+	--bg-secondary: #ff1b5f;
 	--text-primary: #282525;
 	--text-secondary: #fff;
+	--text-tertiary: #ff1b5f;
 	--text-placeholder: #747474;
 	--gradient-footer: linear-gradient(98deg, #452e23 6.33%, #301c13 94.03%);
 	--gradient-subscribe: linear-gradient(90deg, #452e23 6.93%, #301c13 94.51%);
 }
 
 body {
+	background-color: var(--bg-primary);
+	font-family: var(--font-stolzl);
 	scroll-behavior: smooth;
 	min-height: 100vh;
 	overflow-x: hidden;
+	font-weight: 400;
 }
 
 *,

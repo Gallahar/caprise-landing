@@ -1,46 +1,37 @@
 {
-	"header": ["Main", "Catalogue", "Delivery", "Contacts"],
-	"hero": {
-		"title": "lingerie store",
-		"speech": "Gentle or passionate - which will you be?",
-		"button": "Choose"
-	},
-	"catalogue": {
-		"heading": "Have You seen our new products yet?",
-		"products": [
-			{
-				"name": "”Heather” set",
-				"price": "30 $",
-				"imgSrc": "/src/assets/images/catalogue/model_1.webp"
-			},
-			{
-				"name": "Sconce ”Gloria”",
-				"price": "25 $",
-				"imgSrc": "/src/assets/images/catalogue/model_2.webp"
-			},
-			{
-				"name": "”Sakura” set",
-				"price": "20 $",
-				"imgSrc": "/src/assets/images/catalogue/model_3.webp"
-			},
-			{
-				"name": "”Moon” set",
-				"price": "32 $",
-				"imgSrc": "/src/assets/images/catalogue/model_4.webp"
-			}
-		],
-		"button": "See more"
-	},
-	"delivery": {
-		"heading": "Subscribe to our newsletter",
-		"name": "Your name",
-		"email": "Email",
-		"button": "Subscribe"
-	},
-	"contacts": {
-		"heading": "contact us with any questions",
-		"option1": "Need advice on the model, size, color, etc.",
-		"option2": "Any problems with delivery or payment",
-		"option3": "Do you want to work in a friendly team with high pay"
-	}
+	"hero.title": "lingerie store",
+	"hero.speech": "Gentle or passionate - which will you be?",
+	"hero.button": "Choose",
+	"catalogue.heading": "Have You seen our new products yet?",
+	"products": [
+		{
+			"name": "”Heather” set",
+			"price": "30 $",
+			"imgSrc": "/src/assets/images/catalogue/model_1.webp"
+		},
+		{
+			"name": "Sconce ”Gloria”",
+			"price": "25 $",
+			"imgSrc": "/src/assets/images/catalogue/model_2.webp"
+		},
+		{
+			"name": "”Sakura” set",
+			"price": "20 $",
+			"imgSrc": "/src/assets/images/catalogue/model_3.webp"
+		},
+		{
+			"name": "”Moon” set",
+			"price": "32 $",
+			"imgSrc": "/src/assets/images/catalogue/model_4.webp"
+		}
+	],
+	"catalogue.button": "See more",
+	"delivery.heading": "Subscribe to our newsletter",
+	"delivery.name": "Your name",
+	"delivery.email": "Email",
+	"delivery.button": "Subscribe",
+	"contacts.heading": "contact us with any questions",
+	"contacts.option1": "Need advice on the model, size, color, etc.",
+	"contacts.option2": "Any problems with delivery or payment",
+	"contacts.option3": "Do you want to work in a friendly team with high pay"
 }

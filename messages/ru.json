@@ -1,46 +1,37 @@
 {
-	"header": ["Главная", "Каталог", "Доставка", "Контакты"],
-	"hero": {
-		"title": "магазин нижнего белья",
-		"speech": "Нежная или страстная - какой будешь ты?",
-		"button": "Выбирай"
-	},
-	"catalogue": {
-		"heading": "А Ты уже видела наши новинки?",
-		"products": [
-			{
-				"name": "Комплект ”Вереск”",
-				"price": "3000 ₽",
-				"imgSrc": "/src/assets/images/catalogue/model_1.webp"
-			},
-			{
-				"name": "Бра ”Глория”",
-				"price": "2500 ₽",
-				"imgSrc": "/src/assets/images/catalogue/model_2.webp"
-			},
-			{
-				"name": "Комплект ”Сакура”",
-				"price": "2000 ₽",
-				"imgSrc": "/src/assets/images/catalogue/model_3.webp"
-			},
-			{
-				"name": "Комплект ”Moon”",
-				"price": "3200 ₽",
-				"imgSrc": "/src/assets/images/catalogue/model_4.webp"
-			}
-		],
-		"button": "Смотреть еще"
-	},
-	"delivery": {
-		"heading": "Подписывайся на рассылку",
-		"name": "Ваше имя",
-		"email": "Электронная почта",
-		"button": "Подписаться"
-	},
-	"contacts": {
-		"heading": "свяжитесь с нами по любым вопросам",
-		"option1": "Если нужен совет по модели, размеру, цвету и т.д.",
-		"option2": "Любые проблемы с доставкой или оплатой",
-		"option3": "Хочешь работать в дружном коллективе с высокой оплатой"
-	}
+	"hero.title": "магазин нижнего белья",
+	"hero.speech": "Нежная или страстная - какой будешь ты?",
+	"hero.button": "Выбирай",
+	"catalogue.heading": "А Ты уже видела наши новинки?",
+	"products": [
+		{
+			"name": "Комплект ”Вереск”",
+			"price": "3000 ₽",
+			"imgSrc": "/src/assets/images/catalogue/model_1.webp"
+		},
+		{
+			"name": "Бра ”Глория”",
+			"price": "2500 ₽",
+			"imgSrc": "/src/assets/images/catalogue/model_2.webp"
+		},
+		{
+			"name": "Комплект ”Сакура”",
+			"price": "2000 ₽",
+			"imgSrc": "/src/assets/images/catalogue/model_3.webp"
+		},
+		{
+			"name": "Комплект ”Moon”",
+			"price": "3200 ₽",
+			"imgSrc": "/src/assets/images/catalogue/model_4.webp"
+		}
+	],
+	"catalogue.button": "Смотреть еще",
+	"delivery.heading": "Подписывайся на рассылку",
+	"delivery.name": "Ваше имя",
+	"delivery.email": "Электронная почта",
+	"delivery.button": "Подписаться",
+	"contacts.heading": "свяжитесь с нами по любым вопросам",
+	"contacts.option1": "Если нужен совет по модели, размеру, цвету и т.д.",
+	"contacts.option2": "Любые проблемы с доставкой или оплатой",
+	"contacts.option3": "Хочешь работать в дружном коллективе с высокой оплатой"
 }

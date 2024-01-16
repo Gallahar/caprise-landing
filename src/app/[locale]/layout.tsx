@@ -1,7 +1,8 @@
 import type { Metadata } from 'next'
 import { desiraDemo, stolzl } from '@/lib/utils/fonts'
-import './globals.css'
-import { i18nConfig } from '../../../i18nConfig'
+import '@/assets/styles/globals.scss'
+import i18nConfig from '../../i18nConfig'
+import { CartProvider } from '@/providers/CartProvider'
 
 export const metadata: Metadata = {
 	title: 'Caprise',
@@ -22,7 +23,7 @@ export default function RootLayout({
 	return (
 		<html lang={locale}>
 			<body className={`${stolzl.variable} ${desiraDemo.variable}`}>
-				{children}
+				<CartProvider>{children}</CartProvider>
 			</body>
 		</html>
 	)

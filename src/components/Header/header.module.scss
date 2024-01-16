@@ -1,0 +1,31 @@
+.headerWrapper {
+	padding-block: 43px;
+	width: 100%;
+	background-color: var(--bg-primary);
+
+	.header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		.logo {
+			align-self: start;
+		}
+
+		.nav {
+			display: flex;
+			width: 100%;
+			max-width: 662px;
+			justify-content: space-between;
+		}
+	}
+
+	.actionsWrapper {
+		display: flex;
+		align-items: center;
+		gap: 53px;
+	}
+}
+
+.headerWrapperActive {
+}

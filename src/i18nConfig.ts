@@ -5,4 +5,4 @@ const i18nConfig: Config = {
 	defaultLocale: 'en',
 }
 
-export { i18nConfig }
+export default i18nConfig
