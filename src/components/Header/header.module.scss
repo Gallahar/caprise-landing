@@ -1,9 +1,18 @@
 .headerWrapper {
 	padding-block: 43px;
 	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 99;
+	transition: transform 0.2s ease-in-out;
 	background-color: var(--bg-primary);
 
+	&[data-active='true'] {
+		transform: translateY(-100%);
+	}
+
 	.header {
+		width: 100%;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;

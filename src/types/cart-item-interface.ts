@@ -1,6 +1,8 @@
+import { StaticImageData } from 'next/image'
+
 export interface CartItem {
-	id: string
 	name: string
 	price?: string
-	imgSrc?: string
+	imgSrc?: StaticImageData
+	count?: number
 }

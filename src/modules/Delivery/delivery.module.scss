@@ -1,0 +1,19 @@
+.deliveryWrapper {
+	margin-top: 120px;
+	background: var(--gradient-subscribe);
+
+	.deliveryContainer {
+		padding-block: 80px;
+		display: flex;
+		justify-content: space-between;
+		.left {
+			> h2 {
+				color: var(--text-secondary);
+			}
+		}
+		.image {
+			max-width: 968px;
+            object-fit: contain;
+		}
+	}
+}

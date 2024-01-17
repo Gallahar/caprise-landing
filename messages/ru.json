@@ -3,28 +3,6 @@
 	"hero.speech": "Нежная или страстная - какой будешь ты?",
 	"hero.button": "Выбирай",
 	"catalogue.heading": "А Ты уже видела наши новинки?",
-	"products": [
-		{
-			"name": "Комплект ”Вереск”",
-			"price": "3000 ₽",
-			"imgSrc": "/src/assets/images/catalogue/model_1.webp"
-		},
-		{
-			"name": "Бра ”Глория”",
-			"price": "2500 ₽",
-			"imgSrc": "/src/assets/images/catalogue/model_2.webp"
-		},
-		{
-			"name": "Комплект ”Сакура”",
-			"price": "2000 ₽",
-			"imgSrc": "/src/assets/images/catalogue/model_3.webp"
-		},
-		{
-			"name": "Комплект ”Moon”",
-			"price": "3200 ₽",
-			"imgSrc": "/src/assets/images/catalogue/model_4.webp"
-		}
-	],
 	"catalogue.button": "Смотреть еще",
 	"delivery.heading": "Подписывайся на рассылку",
 	"delivery.name": "Ваше имя",

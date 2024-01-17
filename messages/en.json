@@ -3,28 +3,6 @@
 	"hero.speech": "Gentle or passionate - which will you be?",
 	"hero.button": "Choose",
 	"catalogue.heading": "Have You seen our new products yet?",
-	"products": [
-		{
-			"name": "”Heather” set",
-			"price": "30 $",
-			"imgSrc": "/src/assets/images/catalogue/model_1.webp"
-		},
-		{
-			"name": "Sconce ”Gloria”",
-			"price": "25 $",
-			"imgSrc": "/src/assets/images/catalogue/model_2.webp"
-		},
-		{
-			"name": "”Sakura” set",
-			"price": "20 $",
-			"imgSrc": "/src/assets/images/catalogue/model_3.webp"
-		},
-		{
-			"name": "”Moon” set",
-			"price": "32 $",
-			"imgSrc": "/src/assets/images/catalogue/model_4.webp"
-		}
-	],
 	"catalogue.button": "See more",
 	"delivery.heading": "Subscribe to our newsletter",
 	"delivery.name": "Your name",

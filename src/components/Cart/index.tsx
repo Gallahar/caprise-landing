@@ -2,16 +2,15 @@
 
 import { IconCart } from '@/assets/icons/IconCart'
 import s from './cart.module.scss'
+import { useCartContext } from '@/lib/hooks/useCartContext'
 
 export const Cart = () => {
-	const products = false
+	const { cartItemsCount } = useCartContext()
 
 	return (
 		<div className={s.cartWrapper}>
 			<IconCart />
-			{products && <span className={s.badge}></span>}
+			{cartItemsCount > 0 && <span className={s.badge}>{cartItemsCount}</span>}
 		</div>
 	)
 }
-
-//todo: add cart display functional, mb add popup with cartItems onClick.

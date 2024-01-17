@@ -1,0 +1,10 @@
+.catalogueWrapper {
+	margin-top: 120px;
+
+	.catalogueContainer {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 60px;
+	}
+}

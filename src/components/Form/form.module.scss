@@ -1,0 +1,20 @@
+.form {
+	max-width: 672px;
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+
+	.submitButton {
+		align-self: center;
+		&:not(:hover) {
+			background-color: transparent;
+			border: 1px solid var(--text-secondary);
+			color: var(--text-secondary);
+		}
+
+		&:hover {
+			border: 1px solid transparent;
+		}
+	}
+}
