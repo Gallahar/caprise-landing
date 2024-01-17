@@ -1,20 +1,20 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 
 export const useScroll = () => {
-	let previousScroll = 0
+	const previousScroll = useRef(0)
 	const [active, setActive] = useState(true)
 
 	useEffect(() => {
 		const handleScroll = () => {
-			if (window.scrollY > previousScroll) {
+			if (window.scrollY > previousScroll.current) {
 				setActive(true)
 			}
-			if (window.scrollY < previousScroll) {
+			if (window.scrollY < previousScroll.current) {
 				setActive(false)
 			}
-			previousScroll = window.scrollY
+			previousScroll.current = window.scrollY
 		}
 		window.addEventListener('scroll', handleScroll)
 
