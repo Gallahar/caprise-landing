@@ -22,11 +22,9 @@ export const MobileMenu = ({ closeMenuHandler }: MobileMenuProps) => {
 
 	const handleClickLink = (href: string) => {
 		setShouldClose(true)
-		if(href!=='#main'){
+		if (href !== '#main') {
 			push(href)
-		}else[
-			window.scrollTo(0,0)
-		]
+		} else [window.scrollTo(0, 0)]
 
 		setTimeout(() => {
 			closeMenuHandler()
@@ -54,6 +52,7 @@ export const MobileMenu = ({ closeMenuHandler }: MobileMenuProps) => {
 			<nav className={s.links}>
 				{localizedLinks.map(({ href, title }) => (
 					<a
+						key={title}
 						onClick={() => handleClickLink(href)}
 						className={s.link}
 						href={href}
