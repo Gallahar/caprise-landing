@@ -5,7 +5,7 @@ import { useEffect, useRef, useState } from 'react'
 export const useScroll = () => {
 	const previousScroll = useRef(0)
 	const [active, setActive] = useState(false)
-	const [isScrolled, setIsScrolled] = useState(window.scrollY > 200)
+	const [isScrolled, setIsScrolled] = useState(false)
 
 	useEffect(() => {
 		const handleScroll = () => {

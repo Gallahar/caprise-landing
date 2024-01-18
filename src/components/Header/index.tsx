@@ -16,7 +16,7 @@ export const Header = () => {
 	const { localizedLinks } = useLocalizedLinks()
 
 	return (
-		<>
+		<div>
 			<header
 				data-scrolled={isScrolled}
 				data-active={active}
@@ -46,6 +46,6 @@ export const Header = () => {
 			{isMenuOpen && (
 				<MobileMenu closeMenuHandler={() => setIsMenuOpen(false)} />
 			)}
-		</>
+		</div>
 	)
 }

@@ -1,3 +1,5 @@
+'use client'
+
 import { CartContext } from '@/providers/CartProvider'
 import { useContext } from 'react'
 
