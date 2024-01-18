@@ -15,4 +15,29 @@
 		font-size: 1.2rem;
 		border-radius: 50%;
 	}
+
+	.icon {
+		> svg {
+			vertical-align: top;
+			max-width: unset;
+			height: unset;
+		}
+	}
+
+	@media (max-width: 600px) {
+		.icon {
+			> svg {
+				width: 32px;
+				height: 31px;
+			}
+		}
+
+		.badge {
+			width: 20px;
+			height: 20px;
+			left: -10px;
+			bottom: -10px;
+			font-size: 1rem;
+		}
+	}
 }

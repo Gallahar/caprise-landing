@@ -43,12 +43,65 @@
 			display: flex;
 			align-items: center;
 			justify-content: space-between;
+
 			.price {
 				color: var(--text-tertiary);
 				font-size: 3.2rem;
 				font-style: normal;
 				line-height: normal;
 				letter-spacing: 0.64px;
+			}
+		}
+	}
+
+	@media (max-width: 1800px) {
+		max-width: 360px;
+
+		.cardImg {
+			height: 380px;
+		}
+		.cardInfo {
+			padding: 25px;
+			gap: 25px;
+
+			.cardName {
+				font-size: 2rem;
+			}
+
+			.infoContainer {
+				svg {
+					width: 26px;
+					height: 26px;
+				}
+				.price {
+					font-size: 2.6rem;
+				}
+			}
+		}
+	}
+
+	@media (max-width: 600px) {
+		max-width: 150px;
+
+		.cardImg {
+			height: 168px;
+		}
+		.cardInfo {
+			padding: 10px;
+			gap: 10px;
+
+			.cardName {
+				font-size: 1rem;
+			}
+
+			.infoContainer {
+				svg {
+					width: 12px;
+					height: 12px;
+				}
+				.price {
+					font-size: 1.8rem;
+				}
 			}
 		}
 	}

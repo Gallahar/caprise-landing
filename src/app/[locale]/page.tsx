@@ -1,4 +1,4 @@
-import ServerIntlProvider from '@/components/ServerIntlProvider'
+import ServerIntlProvider from '@/providers/ServerIntlProvider'
 import getIntl from './intl'
 import { Header } from '@/components/Header'
 import { Hero } from '@/modules/Hero'

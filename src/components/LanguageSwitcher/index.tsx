@@ -1,12 +1,9 @@
 'use client'
 
 import s from './language-switcher.module.scss'
-import { useRouter } from 'next/navigation'
-import { usePathname } from 'next/navigation'
+import { useRouter, usePathname  } from 'next/navigation'
 import { useCurrentLocale } from 'next-i18n-router/client'
 import i18nConfig from '../../i18nConfig'
-import { ChangeEvent } from 'react'
-import { CustomLink } from '@/ui'
 
 const locales = ['en', 'ru']
 

@@ -3,4 +3,9 @@
 	padding-block: 50px;
 	background: var(--gradient-footer);
 	text-align: center;
+
+	@media (max-width: 600px) {
+		margin-top: 40px;
+		padding-block: 42px;
+	}
 }

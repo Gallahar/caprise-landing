@@ -9,7 +9,9 @@ export const Cart = () => {
 
 	return (
 		<div className={s.cartWrapper}>
-			<IconCart />
+			<button className={s.icon}>
+				<IconCart />
+			</button>
 			{cartItemsCount > 0 && <span className={s.badge}>{cartItemsCount}</span>}
 		</div>
 	)

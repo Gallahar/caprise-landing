@@ -7,6 +7,7 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import { productsEn, productsRu } from '@/config/data/catalogueData'
 import { ProductCard } from '../ProductCard'
 import { Autoplay } from 'swiper/modules'
+import { breakPoints } from '@/config/sliderBreakpoints'
 
 export const Slider = () => {
 	const { locale } = useIntl()
@@ -15,6 +16,7 @@ export const Slider = () => {
 
 	return (
 		<Swiper
+			resizeObserver={true}
 			modules={[Autoplay]}
 			loop={true}
 			autoplay={{
@@ -24,14 +26,15 @@ export const Slider = () => {
 			}}
 			speed={2500}
 			className={s.slider}
-			spaceBetween={60}
-			slidesPerView={4}
+			breakpoints={breakPoints}
 		>
-			{products.map((product) => (
-				<SwiperSlide key={product.name}>
-					<ProductCard {...product} />
-				</SwiperSlide>
-			))}
+			<div>
+				{products.map((product) => (
+					<SwiperSlide key={product.name}>
+						<ProductCard {...product} />
+					</SwiperSlide>
+				))}
+			</div>
 		</Swiper>
 	)
 }

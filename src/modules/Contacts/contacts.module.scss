@@ -20,4 +20,34 @@
 			}
 		}
 	}
+
+	@media (max-width: 1100px) {
+		.contactsContainer {
+			gap: 50px;
+			.optionWrapper {
+				flex-direction: column;
+				text-align: center;
+				gap: 30px;
+				> p {
+					font-size: 2rem;
+				}
+			}
+		}
+	}
+
+	@media (max-width: 600px) {
+		margin-top: 40px;
+		.contactsContainer {
+			gap: 30px;
+			> h2 {
+				line-height: 130%;
+			}
+
+			.optionWrapper {
+				> p {
+					font-size: 1.4rem;
+				}
+			}
+		}
+	}
 }
