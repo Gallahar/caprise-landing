@@ -2,7 +2,7 @@
 
 import { useEffect } from 'react'
 
-export const useLockScroll = () => {
+export const useOverflow = () => {
 	useEffect(() => {
 		document.body.style.overflowY = 'hidden'
 

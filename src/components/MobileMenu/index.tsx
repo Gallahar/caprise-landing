@@ -2,20 +2,20 @@
 
 import { Logo } from '@/ui'
 import s from './mobile-menu.module.scss'
-import { useLockScroll } from './useLockScroll'
 import { Cart } from '../Cart'
 import { IconCross } from '@/assets/icons/IconCross'
 import { useLocalizedLinks } from '@/lib/hooks/useLocalizedLinks'
 import { useRouter } from 'next/navigation'
 import LanguageSwitcher from '../LanguageSwitcher'
 import { useState } from 'react'
+import { useOverflow } from '@/lib/hooks/useOverflow'
 
 interface MobileMenuProps {
 	closeMenuHandler: () => void
 }
 
 export const MobileMenu = ({ closeMenuHandler }: MobileMenuProps) => {
-	useLockScroll()
+	useOverflow()
 	const [shouldClose, setShouldClose] = useState(false)
 	const { localizedLinks } = useLocalizedLinks()
 	const { push } = useRouter()
@@ -32,7 +32,7 @@ export const MobileMenu = ({ closeMenuHandler }: MobileMenuProps) => {
 	}
 
 	return (
-		<div data-shouldClose={shouldClose} className={s.mobileWrapper}>
+		<div data-should-close={shouldClose} className={s.mobileWrapper}>
 			<div className={s.firstLine}>
 				<Logo />
 				<div className={s.controlsWrapper}>

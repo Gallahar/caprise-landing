@@ -11,5 +11,11 @@
 	"contacts.heading": "contact us with any questions",
 	"contacts.option1": "Need advice on the model, size, color, etc.",
 	"contacts.option2": "Any problems with delivery or payment",
-	"contacts.option3": "Do you want to work in a friendly team with high pay"
+	"contacts.option3": "Do you want to work in a friendly team with high pay",
+	"subscribe.error.wentWrong": "Something went wrong, please reload the page and try again",
+	"subscribe.error.exist": "User already subscribed",
+	"subscribe.success": "You are successfully subscribed to our newsletter!",
+	"unsubscribe.success": "You are successfully unsubscribed from our newsletter.",
+	"unsubscribe.failure": "You was not subscribed to our newsletter.",
+	"unsubscribe.error": "Something went wrong, please wait 5 minutes and try again"
 }

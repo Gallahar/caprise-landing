@@ -105,4 +105,27 @@
 			}
 		}
 	}
+
+	@media (max-width: 358px) {
+		max-width: 100%;
+
+		.cardImg {
+			height: 300px;
+		}
+
+		.cardInfo {
+			padding: 15px;
+
+			.cardName {
+				font-size: 2rem;
+			}
+
+			.infoContainer {
+				svg {
+					width: 16px;
+					height: 16px;
+				}
+			}
+		}
+	}
 }

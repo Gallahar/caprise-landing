@@ -8,6 +8,7 @@
 
 	.submitButton {
 		align-self: center;
+		gap: 5px;
 		&:not(:hover) {
 			background-color: transparent;
 			border: 1px solid var(--text-secondary);

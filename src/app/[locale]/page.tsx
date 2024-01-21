@@ -15,7 +15,7 @@ export default async function Main({
 	const intl = await getIntl(locale)
 
 	return (
-		<ServerIntlProvider locale={intl.locale} messages={intl.messages}>
+		<>
 			<Header />
 			<Hero
 				title={intl.formatMessage({ id: 'hero.title' })}
@@ -34,6 +34,6 @@ export default async function Main({
 				option3={intl.formatMessage({ id: 'contacts.option3' })}
 			/>
 			<Footer />
-		</ServerIntlProvider>
+		</>
 	)
 }

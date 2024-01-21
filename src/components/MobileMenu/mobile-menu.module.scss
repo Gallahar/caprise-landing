@@ -1,5 +1,6 @@
 .mobileWrapper {
 	position: fixed;
+	overflow-y: scroll;
 	z-index: 11;
 	top: 0;
 	right: 0;
@@ -10,7 +11,7 @@
 	transition: right 0.3s ease-out;
 	animation: appear 0.3s ease-in forwards;
 
-	&[data-shouldClose='true'] {
+	&[data-should-close='true'] {
 		opacity: 0;
 		right: -100%;
 	}
